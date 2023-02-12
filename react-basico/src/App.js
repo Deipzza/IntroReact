@@ -2,9 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 import Componente from './components/Componente';
 import Propiedades from './components/Propiedades';
-
-const seasons = ["spring", "autumn", "winter", "summer"];
-const auth = true;
+import Estado from './components/Estado';
+import RenderizadoCondicional from './components/RenderizadoCondicional';
+import RenderizadoElementos from './components/RenderizadoElementos';
+import Eventos from './components/Eventos';
 
 // function sonidito() {
 //   console.log("audio");
@@ -27,12 +28,6 @@ function App() {
           >
             Learn React
           </a>
-          <p>
-            {auth ? "The user is authenticated" : "The user is not authenticated"}
-          </p>
-          <ul>
-            {seasons.map((e, index) => (<li key={index}>{e}</li>))}
-          </ul>
           {/* <audio src="uwu.mp3"></audio> */}
           {/* <button onClick={document.querySelector("audio")}>Sorpresa</button> */}
         </section>
@@ -52,6 +47,14 @@ function App() {
             funcion={num => num * num}
             componenteReact={<Componente msg="Soy un componente"/>}
           />
+          <hr/>
+          <Estado/>
+          <hr/>
+          <RenderizadoCondicional/>
+          <hr/>
+          <RenderizadoElementos/>
+          <hr/>
+          <Eventos/>
         </section>
       </header>
     </div>
