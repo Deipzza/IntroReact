@@ -5,7 +5,9 @@ import Propiedades from './components/Propiedades';
 import Estado from './components/Estado';
 import RenderizadoCondicional from './components/RenderizadoCondicional';
 import RenderizadoElementos from './components/RenderizadoElementos';
-import Eventos from './components/Eventos';
+import {EventosES6} from './components/Eventos';
+import {EventosES7} from './components/Eventos';
+import {MasSobreEventos} from './components/Eventos';
 
 // function sonidito() {
 //   console.log("audio");
@@ -54,7 +56,11 @@ function App() {
           <hr/>
           <RenderizadoElementos/>
           <hr/>
-          <Eventos/>
+          <EventosES6/>
+          <hr/>
+          <EventosES7/>
+          <hr/>
+          <MasSobreEventos/>
         </section>
       </header>
     </div>
