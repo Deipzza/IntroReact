@@ -8,6 +8,8 @@ import RenderizadoElementos from './components/RenderizadoElementos';
 import {EventosES6} from './components/Eventos';
 import {EventosES7} from './components/Eventos';
 import {MasSobreEventos} from './components/Eventos';
+import Padre from './components/ComunicacionComponentes';
+import CicloVida from './components/CicloVida';
 
 // function sonidito() {
 //   console.log("audio");
@@ -61,6 +63,10 @@ function App() {
           <EventosES7/>
           <hr/>
           <MasSobreEventos/>
+          <hr/>
+          <Padre/>
+          <hr/>
+          <CicloVida/>
         </section>
       </header>
     </div>
