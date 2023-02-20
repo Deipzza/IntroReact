@@ -10,6 +10,7 @@ import {EventosES7} from './components/Eventos';
 import {MasSobreEventos} from './components/Eventos';
 import Padre from './components/ComunicacionComponentes';
 import CicloVida from './components/CicloVida';
+import AjaxApis from './components/AjaxApis';
 
 // function sonidito() {
 //   console.log("audio");
@@ -67,12 +68,12 @@ function App() {
           <Padre/>
           <hr/>
           <CicloVida/>
+          <hr/>
+          <AjaxApis/>
         </section>
       </header>
     </div>
   );
 }
-
-
 
 export default App;
