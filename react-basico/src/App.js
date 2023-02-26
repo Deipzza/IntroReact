@@ -10,7 +10,10 @@ import {EventosES7} from './components/Eventos';
 import {MasSobreEventos} from './components/Eventos';
 import Padre from './components/ComunicacionComponentes';
 import CicloVida from './components/CicloVida';
-import AjaxApis from './components/AjaxApis';
+// import AjaxApis from './components/AjaxApis';
+import ContadorHooks from './components/ContadorHooks';
+import ScrollHooks from './components/ScrollHooks';
+import RelojHooks from './components/RelojHooks';
 
 // function sonidito() {
 //   console.log("audio");
@@ -68,8 +71,14 @@ function App() {
           <Padre/>
           <hr/>
           <CicloVida/>
+          {/* <hr/>
+          <AjaxApis/> */}
           <hr/>
-          <AjaxApis/>
+          <ContadorHooks titulo="seguidores"/>
+          <hr/>
+          <ScrollHooks/>
+          <hr/>
+          <RelojHooks/>
         </section>
       </header>
     </div>
