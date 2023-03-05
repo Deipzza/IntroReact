@@ -14,6 +14,7 @@ import CicloVida from './components/CicloVida';
 import ContadorHooks from './components/ContadorHooks';
 import ScrollHooks from './components/ScrollHooks';
 import RelojHooks from './components/RelojHooks';
+import AjaxHooks from './components/AjaxHooks';
 
 // function sonidito() {
 //   console.log("audio");
@@ -79,6 +80,8 @@ function App() {
           <ScrollHooks/>
           <hr/>
           <RelojHooks/>
+          <hr/>
+          <AjaxHooks/>
         </section>
       </header>
     </div>
