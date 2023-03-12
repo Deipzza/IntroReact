@@ -15,6 +15,8 @@ import ContadorHooks from './components/ContadorHooks';
 import ScrollHooks from './components/ScrollHooks';
 import RelojHooks from './components/RelojHooks';
 import AjaxHooks from './components/AjaxHooks';
+import HooksPersonalizados from './components/HooksPersonalizados';
+import Referencias from './components/Referencias';
 
 // function sonidito() {
 //   console.log("audio");
@@ -80,8 +82,12 @@ function App() {
           <ScrollHooks/>
           <hr/>
           <RelojHooks/>
+          {/* <hr/>
+          <AjaxHooks/> */}
+          {/* <hr/>
+          <HooksPersonalizados/> */}
           <hr/>
-          <AjaxHooks/>
+          <Referencias/>
         </section>
       </header>
     </div>
