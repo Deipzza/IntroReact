@@ -1,7 +1,6 @@
 # IntroReact
-In this repository I'll be adding the different apps and codes from the courses
-I'll me doing to learn React.
+In this repository I'll be adding the programs, apps, scripts and other stuff I
+use while studying React.
 
-The list of courses are:
-
-* [React Course by jonmircha](https://www.youtube.com/watch?v=odpX-rJ_R4Q&list=PLvq-jIkSeTUZ5XcUw8fJPTBKEHEKPMTKk).
+Currently I'm learning from [this Youtube playlist](https://www.youtube.com/playlist?list=PLvq-jIkSeTUZ5XcUw8fJPTBKEHEKPMTKk).
+This can be seen on the folder *react-basico*, where I'm adding the scripts for components and hooks used in each video.
