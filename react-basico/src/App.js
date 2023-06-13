@@ -14,10 +14,11 @@ import CicloVida from './components/CicloVida';
 import ContadorHooks from './components/ContadorHooks';
 import ScrollHooks from './components/ScrollHooks';
 import RelojHooks from './components/RelojHooks';
-import AjaxHooks from './components/AjaxHooks';
-import HooksPersonalizados from './components/HooksPersonalizados';
+// import AjaxHooks from './components/AjaxHooks';
+// import HooksPersonalizados from './components/HooksPersonalizados';
 import Referencias from './components/Referencias';
 import Formularios from './components/Formularios';
+import Estilos from './components/Estilos';
 
 // function sonidito() {
 //   console.log("audio");
@@ -60,38 +61,39 @@ function App() {
             componenteReact={<Componente msg="Soy un componente"/>}
           />
           <hr/>
-          <Estado/>
+          <Estado />
           <hr/>
-          <RenderizadoCondicional/>
+          <RenderizadoCondicional />
           <hr/>
-          <RenderizadoElementos/>
+          <RenderizadoElementos />
           <hr/>
-          <EventosES6/>
+          <EventosES6 />
           <hr/>
-          <EventosES7/>
+          <EventosES7 />
           <hr/>
-          <MasSobreEventos/>
+          <MasSobreEventos />
           <hr/>
-          <Padre/>
+          <Padre />
           <hr/>
-          <CicloVida/>
+          <CicloVida />
           {/* <hr/>
           <AjaxApis/> */}
           <hr/>
           <ContadorHooks titulo="seguidores"/>
           <hr/>
-          <ScrollHooks/>
+          <ScrollHooks />
           <hr/>
-          <RelojHooks/>
+          <RelojHooks />
           {/* <hr/>
           <AjaxHooks/> */}
           {/* <hr/>
           <HooksPersonalizados/> */}
           <hr/>
-          <Referencias/>
+          <Referencias />
           <hr/>
-          <Formularios/>
+          <Formularios />
           <hr/>
+          <Estilos />
           <hr/>
         </section>
       </header>
