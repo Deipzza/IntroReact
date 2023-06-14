@@ -19,6 +19,7 @@ import RelojHooks from './components/RelojHooks';
 import Referencias from './components/Referencias';
 import Formularios from './components/Formularios';
 import Estilos from './components/Estilos';
+import ComponentesEstilizados from './components/ComponentesEstilizados';
 
 // function sonidito() {
 //   console.log("audio");
@@ -95,6 +96,7 @@ function App() {
           <hr/>
           <Estilos />
           <hr/>
+          <ComponentesEstilizados />
         </section>
       </header>
     </div>
