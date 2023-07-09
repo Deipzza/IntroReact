@@ -1,34 +1,44 @@
 {
- "radiants" : [
-  {
-    "id": 1,
-    "name": "Kaladin Stormblessed",
-    "order": "Windrunner"
-  },
-  {
-    "id": 2,
-    "name": "Dalinar Kholin",
-    "order": "Bondsmith"
-  },
-  {
-    "id": 3,
-    "name": "Shallan Davar",
-    "order": "Lightweaver"
-  },
-  {
-    "id": 4,
-    "name": "Renarin Kholin",
-    "order": "Truthwatcher"
-  },
-  {
-    "id": 5,
-    "name": "Szeth son-son-Vallano",
-    "order": "Skybreaker"
-  },
-  {
-    "id": 6,
-    "name": "Jasnah Kholin",
-    "order": "Elsecaller"
-  }
- ]
+  "radiants": [
+    {
+      "id": 1,
+      "name": "Kaladin Stormblessed",
+      "order": "Windrunner"
+    },
+    {
+      "id": 2,
+      "name": "Dalinar Kholin",
+      "order": "Bondsmith"
+    },
+    {
+      "id": 3,
+      "name": "Shallan Davar",
+      "order": "Lightweaver"
+    },
+    {
+      "id": 4,
+      "name": "Renarin Kholin",
+      "order": "Truthwatcher"
+    },
+    {
+      "id": 5,
+      "name": "Szeth son-son-Vallano",
+      "order": "Skybreaker"
+    },
+    {
+      "id": 6,
+      "name": "Jasnah Kholin",
+      "order": "Elsecaller"
+    },
+    {
+      "id": 1688943097006,
+      "name": "Venli",
+      "order": "Willshaper"
+    },
+    {
+      "id": 1688943116403,
+      "name": "Lift",
+      "order": "Edgedancer"
+    }
+  ]
 }
