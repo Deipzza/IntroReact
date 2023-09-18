@@ -23,6 +23,13 @@ const App = () => {
       )
     );
   };
+  const handleClearItems = () => {
+    const confirmed = window.confirm(
+      "Are you sure you want to delete all items?"
+    );
+
+    confirmed && setItems([]);
+  };
 
   return (
     <div className="App">
@@ -32,8 +39,9 @@ const App = () => {
         items={items}
         onDeleteItem={handleDeleteItem}
         onToggleItem={handleToggleItem}
+        onClearItems={handleClearItems}
       />
-      <Stats />
+      <Stats items={items} />
     </div>
   );
 };
